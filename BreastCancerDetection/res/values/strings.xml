@@ -9,5 +9,5 @@
     <string name="bc_data_entry_submit_button">submit</string>
     <string name="title_activity_main_menu">Predictions</string>
     <string name="title_overflow">Logout</string>
-	<string name="title_bc_data_entry">Prediction</string>
+    <string name="title_bc_data_entry">Data Entry</string>
 </resources>
