@@ -39,6 +39,15 @@
             android:name=".ShowPredictionActivity"
             android:label="Prediction" >
         </activity>
+        <activity
+            android:name=".SaveToDb"
+            android:label="Save to Database" >
+            
+        </activity>
+        <activity 
+            android:name=".BCPreviousActivity" 
+            android:label="Previous Predictions">
+        </activity>
 
     </application>
 

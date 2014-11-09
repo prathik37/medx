@@ -19,6 +19,7 @@
             android:layout_marginTop="29dp"
             android:text="@string/bc_data_entry_title"
             android:textAppearance="?android:attr/textAppearanceLarge" />
+       
 
         <TextView
             android:id="@+id/bc_entry_text_field1"
@@ -27,7 +28,7 @@
             android:layout_alignLeft="@+id/bc_data_entry_title"
             android:layout_below="@+id/bc_data_entry_title"
             android:layout_marginTop="18dp"
-            android:text="1) "
+            android:text="Clump Thickness "
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <TextView
@@ -37,7 +38,7 @@
             android:layout_alignRight="@+id/bc_entry_text_field1"
             android:layout_below="@+id/bc_entry_text_field1"
             android:layout_marginTop="18dp"
-            android:text="2)"
+            android:text="Unify of Cell Size "
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <TextView
@@ -47,7 +48,7 @@
             android:layout_alignRight="@+id/bc_entry_text_field2"
             android:layout_below="@+id/bc_entry_text_field2"
             android:layout_marginTop="18dp"
-            android:text="3)"
+            android:text="Unif of Cell Shape"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <TextView
@@ -57,7 +58,7 @@
             android:layout_alignRight="@+id/bc_entry_text_field3"
             android:layout_below="@+id/bc_entry_text_field3"
             android:layout_marginTop="18dp"
-            android:text="4)"
+            android:text="Marginal Adhesion "
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <TextView
@@ -67,7 +68,7 @@
             android:layout_alignRight="@+id/bc_entry_text_field4"
             android:layout_below="@+id/bc_entry_text_field4"
             android:layout_marginTop="18dp"
-            android:text="5)"
+            android:text="Epithelial Cell Size"
             android:textAppearance="?android:attr/textAppearanceMedium" />
         
         <TextView
@@ -77,7 +78,7 @@
             android:layout_alignRight="@+id/bc_entry_text_field5"
             android:layout_below="@+id/bc_entry_text_field5"
             android:layout_marginTop="22dp"
-            android:text="6)"
+            android:text="Bare Nuclei"
             android:textAppearance="?android:attr/textAppearanceMedium" />
         
         <TextView
@@ -87,7 +88,7 @@
             android:layout_alignRight="@+id/bc_entry_text_field6"
             android:layout_below="@+id/bc_entry_text_field6"
             android:layout_marginTop="18dp"
-            android:text="7)"
+            android:text="Bland Chromatin"
             android:textAppearance="?android:attr/textAppearanceMedium" />
         
         <TextView
@@ -97,7 +98,7 @@
             android:layout_alignRight="@+id/bc_entry_text_field7"
             android:layout_below="@+id/bc_entry_text_field7"
             android:layout_marginTop="18dp"
-            android:text="8)"
+            android:text="Normal Nucleoli"
             android:textAppearance="?android:attr/textAppearanceMedium" />
         
         
@@ -108,7 +109,7 @@
             android:layout_alignRight="@+id/bc_entry_text_field8"
             android:layout_below="@+id/bc_entry_text_field8"
             android:layout_marginTop="18dp"
-            android:text="9)"
+            android:text="Mitoses"
             android:textAppearance="?android:attr/textAppearanceMedium" />
 
         <EditText

@@ -35,7 +35,7 @@ public class ShowPredictionActivity extends Activity {
 	public void onClickSavePatientButton(View v) {
 		
 		
-		Intent mIntent = new Intent(this, MainActivity.class);
+		Intent mIntent = new Intent(this, SaveToDb.class);
 		startActivity(mIntent);
 	}
 	
