@@ -1,6 +1,4 @@
 package com.example.breastcancerdetection;
-
-
 import java.util.ArrayList;
 import java.util.List;
 import android.app.Activity;
@@ -48,4 +46,5 @@ public class BCDataEntryActivity extends Activity{
 		Log.i("main menu","Starting activity");
 		startActivity(mIntent);
 	}
+
 }

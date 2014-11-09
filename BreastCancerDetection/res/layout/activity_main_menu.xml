@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/footer_lodyas" >
+    
+        <Button
+        android:id="@+id/btnPredictions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/btnPrevPredictions"
+        android:layout_below="@+id/btnPrevPredictions"
+        android:layout_marginTop="40dp"
+        android:textColor="#FFFFFF"
+        android:text="Prediction Page" />
+
+    <Button
+        android:id="@+id/btnPrevPredictions"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp"
+        android:textColor="#FFFFFF"
+        android:text="Previous Predictions" />
+
+
+
+</LinearLayout>
