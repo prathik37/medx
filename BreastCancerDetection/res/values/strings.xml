@@ -10,4 +10,6 @@
     <string name="title_activity_main_menu">Predictions</string>
     <string name="title_overflow">Logout</string>
     <string name="title_bc_data_entry">Data Entry</string>
+    <string name="prediction_title">Prediction</string>
+    <string name="prediction_ypred"></string>
 </resources>

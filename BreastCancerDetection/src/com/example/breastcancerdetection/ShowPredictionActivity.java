@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
-import android.widget.EditText;
+import android.widget.TextView;
 
 public class ShowPredictionActivity extends Activity {
 
@@ -14,9 +14,15 @@ public class ShowPredictionActivity extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-		setContentView(R.layout.bc_data_entry);
+		setContentView(R.layout.activity_prediction);
 		prediction = getIntent().getExtras().getBoolean("prediction");
 		type = getIntent().getExtras().getString("type");
+		TextView tvPred= (TextView)findViewById(R.id.tvPred);
+		Log.i("rand", tvPred.toString());
+		if (prediction)
+			tvPred.setText("Yes");
+		else
+			tvPred.setText("No");
 	}
 	
 	
@@ -27,10 +33,9 @@ public class ShowPredictionActivity extends Activity {
 	}
 	
 	public void onClickSavePatientButton(View v) {
-		Intent mIntent = new Intent(this, ShowPredictionActivity.class);
-		mIntent.putExtra( "prediction", prediction );
-		mIntent.putExtra("type", type);
-		Log.i("main menu","Starting activity");
+		
+		
+		Intent mIntent = new Intent(this, MainActivity.class);
 		startActivity(mIntent);
 	}
 	

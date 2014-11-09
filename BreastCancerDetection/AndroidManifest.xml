@@ -35,6 +35,10 @@
             android:name=".BCDataEntryActivity"
             android:label="@string/title_bc_data_entry" >
         </activity>
+        <activity
+            android:name=".ShowPredictionActivity"
+            android:label="Prediction" >
+        </activity>
 
     </application>
 

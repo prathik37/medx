@@ -10,7 +10,7 @@ import android.widget.EditText;
 
 public class BCDataEntryActivity extends Activity{
 
-	List<EditText> featureEditText = new ArrayList<EditText>();
+	EditText[] featureEditText = new EditText[9];
 
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
@@ -28,7 +28,7 @@ public class BCDataEntryActivity extends Activity{
 				R.id.bc_entry_edit_text_field9};
 		
 		for (int i = 0; i<9; i++)
-			featureEditText.add((EditText) findViewById(edTextIds[i]));
+			featureEditText[i] = (EditText) findViewById(edTextIds[i]);
 	}
 
 
@@ -36,15 +36,24 @@ public class BCDataEntryActivity extends Activity{
 
 		// Call the appropriate class activity based on which 
 		// btn was pressed.
+		Log.i("det","in onclick");
 		Double[] feats = new Double[9];
 		for (int i = 0; i<9; i++)
-			feats[i] = Double.parseDouble(featureEditText.get(i).toString());
+		{	
+			Log.i("det",featureEditText[i].getText().toString());
+			feats[i] = Double.parseDouble(featureEditText[i].getText().toString());
+		}
+		Log.i("det","done parsing");
+		
 		boolean prediction = BreastCancerPrediction.predict(feats);
+		Log.i("det","done pred");
 		Intent mIntent = new Intent(this, ShowPredictionActivity.class);
 		mIntent.putExtra( "prediction", prediction );
 		mIntent.putExtra("type", "bc");
 		Log.i("main menu","Starting activity");
+		Log.i("det","calling intent");
 		startActivity(mIntent);
+		Log.i("det","done onclick");
 	}
 
 }
