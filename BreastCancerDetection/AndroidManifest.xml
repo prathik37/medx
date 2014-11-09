@@ -31,6 +31,10 @@
             android:name=".MainActivity"
             android:label="@string/title_activity_main_menu" >
         </activity>
+        <activity
+            android:name=".BCDataEntryActivity"
+            android:label="@string/title_bc_data_entry" >
+        </activity>
 
     </application>
 
