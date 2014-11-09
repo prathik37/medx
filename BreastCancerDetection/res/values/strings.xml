@@ -4,5 +4,7 @@
     <string name="app_name">Breast Cancer Detection</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="bc_data_entry_title">Enter patient data</string>
+    <string name="bc_data_entry_submit_button">submit</string>
 
 </resources>
