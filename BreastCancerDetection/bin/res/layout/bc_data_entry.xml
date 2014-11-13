@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/bc_data_entry_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="26dp"
+            android:layout_marginTop="29dp"
+            android:text="@string/bc_data_entry_title"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+       
+
+        <TextView
+            android:id="@+id/bc_entry_text_field1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/bc_data_entry_title"
+            android:layout_below="@+id/bc_data_entry_title"
+            android:layout_marginTop="18dp"
+            android:text="Clump Thickness "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/bc_entry_text_field2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/bc_entry_text_field1"
+            android:layout_below="@+id/bc_entry_text_field1"
+            android:layout_marginTop="18dp"
+            android:text="Unify of Cell Size "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/bc_entry_text_field3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/bc_entry_text_field2"
+            android:layout_below="@+id/bc_entry_text_field2"
+            android:layout_marginTop="18dp"
+            android:text="Unif of Cell Shape"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/bc_entry_text_field4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/bc_entry_text_field3"
+            android:layout_below="@+id/bc_entry_text_field3"
+            android:layout_marginTop="18dp"
+            android:text="Marginal Adhesion "
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <TextView
+            android:id="@+id/bc_entry_text_field5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/bc_entry_text_field4"
+            android:layout_below="@+id/bc_entry_text_field4"
+            android:layout_marginTop="18dp"
+            android:text="Epithelial Cell Size"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <TextView
+            android:id="@+id/bc_entry_text_field6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/bc_entry_text_field5"
+            android:layout_below="@+id/bc_entry_text_field5"
+            android:layout_marginTop="22dp"
+            android:text="Bare Nuclei"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <TextView
+            android:id="@+id/bc_entry_text_field7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/bc_entry_text_field6"
+            android:layout_below="@+id/bc_entry_text_field6"
+            android:layout_marginTop="18dp"
+            android:text="Bland Chromatin"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <TextView
+            android:id="@+id/bc_entry_text_field8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/bc_entry_text_field7"
+            android:layout_below="@+id/bc_entry_text_field7"
+            android:layout_marginTop="18dp"
+            android:text="Normal Nucleoli"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        
+        <TextView
+            android:id="@+id/bc_entry_text_field9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/bc_entry_text_field8"
+            android:layout_below="@+id/bc_entry_text_field8"
+            android:layout_marginTop="18dp"
+            android:text="Mitoses"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <EditText
+            android:id="@+id/bc_entry_edit_text_field1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/bc_entry_text_field1"
+            android:layout_alignBottom="@+id/bc_entry_text_field1"
+            android:layout_marginLeft="32dp"
+            android:layout_toRightOf="@+id/bc_entry_text_field1"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+        
+        <EditText
+            android:id="@+id/bc_entry_edit_text_field2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/bc_entry_text_field2"
+            android:layout_alignBottom="@+id/bc_entry_text_field2"
+            android:layout_marginLeft="32dp"
+            android:layout_toRightOf="@+id/bc_entry_text_field2"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+        
+        <EditText
+            android:id="@+id/bc_entry_edit_text_field3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/bc_entry_text_field3"
+            android:layout_alignBottom="@+id/bc_entry_text_field3"
+            android:layout_marginLeft="32dp"
+            android:layout_toRightOf="@+id/bc_entry_text_field3"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+        
+        <EditText
+            android:id="@+id/bc_entry_edit_text_field4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/bc_entry_text_field4"
+            android:layout_alignBottom="@+id/bc_entry_text_field4"
+            android:layout_marginLeft="32dp"
+            android:layout_toRightOf="@+id/bc_entry_text_field4"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+        
+        <EditText
+            android:id="@+id/bc_entry_edit_text_field5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/bc_entry_text_field5"
+            android:layout_alignBottom="@+id/bc_entry_text_field5"
+            android:layout_marginLeft="32dp"
+            android:layout_toRightOf="@+id/bc_entry_text_field5"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+        
+        <EditText
+            android:id="@+id/bc_entry_edit_text_field6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/bc_entry_text_field6"
+            android:layout_alignBottom="@+id/bc_entry_text_field6"
+            android:layout_marginLeft="32dp"
+            android:layout_toRightOf="@+id/bc_entry_text_field6"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+        
+        <EditText
+            android:id="@+id/bc_entry_edit_text_field7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/bc_entry_text_field7"
+            android:layout_alignBottom="@+id/bc_entry_text_field7"
+            android:layout_marginLeft="32dp"
+            android:layout_toRightOf="@+id/bc_entry_text_field7"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+        
+        <EditText
+            android:id="@+id/bc_entry_edit_text_field8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/bc_entry_text_field8"
+            android:layout_alignBottom="@+id/bc_entry_text_field8"
+            android:layout_marginLeft="32dp"
+            android:layout_toRightOf="@+id/bc_entry_text_field8"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <EditText
+            android:id="@+id/bc_entry_edit_text_field9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/bc_entry_edit_text_field8"
+            android:layout_alignParentBottom="true"
+            android:ems="10"
+            android:inputType="numberDecimal" />
+
+        <Button
+            android:id="@+id/bc_data_entry_submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/bc_entry_text_field1"
+            android:layout_marginLeft="26dp"
+            android:layout_toRightOf="@+id/bc_data_entry_title"
+            android:text="@string/bc_data_entry_submit_button" 
+            android:onClick="onClickSubmitButton"
+            />
+        
+    </RelativeLayout>
+
+</ScrollView>
